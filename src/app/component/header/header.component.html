@@ -1,0 +1,20 @@
+<header>
+    <div class="navbar navbar-dark bg-success shadow-sm">
+      <div class="container">
+      <div class="navbar-brand d-flex align-items-center">
+        <i class="fas fa-shipping-fast fs-2">
+        </i>
+        <strong class="ms-2 fs-3">Add Product</strong>
+        <div class="form-group position-relative">
+          <input type="text" class="form-control" placeholder="search products">
+          <span class="fas fa-search search-icon"></span>
+        </div>
+      </div>
+
+      <button routerLink="cart" class="btn btn-success position-relative">
+        <i class="fas fa-cart-plus fs-3"></i>
+        <div class="badge badge-fill bg-danger">{{totalItem}}</div>
+      </button>
+    </div>
+  </div>
+</header>
